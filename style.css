@@ -1,0 +1,102 @@
+/*
+div {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #886363;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #aca4a4;
+}
+
+.header {
+  background-color: rgb(235, 229, 235); 
+  text-align: center;
+  margin: auto;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(50, 50, 83);
+    padding: 40px;
+    margin: auto;
+}
+
+.lead {
+  font-size: 22px;
+  text-align: center;
+}
+.content img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(235, 229, 235);
+}
+
+.footer p {
+    color:rgb(50, 50, 83);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 650px) {
+  li {
+      float: left;
+}
+} 
+
+@media only screen and (min-width: 650px) {
+  .content {
+    width: 75%;
+  }
+} 
+
+.netti {
+    color: rgb(50, 50, 83);
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+.linkit {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1025px) {
+    .content {
+      width: 55%;
+    }
+  } 
